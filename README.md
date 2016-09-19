@@ -1,4 +1,5 @@
-API Mail - A Modern Email Replacement
+# API Mail - A Modern Email Replacement
+
 Reference code for a modern API replacement for email that does not require changing existing addresses.
 
 API mail server is a modern replacement to the now ancient email system. The key difference is that an API is called, rather than a network level port. Email addresses remain the same and are parsed to construct a standard url (i.e. http://mydomain.com/mail/submit) to which a BSON payload is sent. This makes transitioning from existing email technologies to API-based mail a simple process of extension, rather than a complete break with existing approaches.
