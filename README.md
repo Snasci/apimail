@@ -6,6 +6,8 @@ API mail server is a modern replacement to the now ancient email system. The key
 
 With CORS support, emails can be sent directly from the client side using javascript to the recipient domains, lowering costs for email providers.
 
+API Mail is compatible with the Hash Naming System (see Snasci's other repos on Github for further info).
+
 This project is a very basic bare bones implementation, without any whistles or bells (or even error handling), but its enough to get the point. You will need to write the calling code for the API, just look at the MailContract.cs and use JSON/BSON.
 
 The source is available under numerous licenses:
